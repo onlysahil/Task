@@ -1,4 +1,4 @@
-import "./process.css";
+import "./Process.css";
 import { FaUsers, FaClipboardList, FaFlask, FaRocket } from "react-icons/fa";
 
 
