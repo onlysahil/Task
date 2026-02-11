@@ -1,0 +1,153 @@
+.process {
+  background: radial-gradient(circle at left, #0b2b3a 0%, #050b11 40%, #02060a 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* top tag */
+.tag {
+  display: inline-block;
+  border: 1px solid #00c8ff;
+  color: #00c8ff;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* heading */
+.process h2 {
+  font-size: 34px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* subtitle */
+.sub {
+  color: #a8c7d8;
+  margin-bottom: 60px;
+}
+
+/* grid */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  position: relative;
+}
+
+/* card */
+.card {
+  position: relative;
+  padding: 40px 25px;
+  border-radius: 16px;
+  background: #07151d;
+  border: 1px solid #0bbcff;
+  box-shadow: 0 0 0px #00d0ff;
+  transition: 0.35s;
+}
+
+/* glow hover effect (same as first card image) */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 15px #00d0ff,
+    0 0 40px rgba(0, 208, 255, 0.5),
+    inset 0 0 20px rgba(0, 208, 255, 0.3);
+}
+
+/* number badge */
+.badge {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00c8ff;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00c8ff;
+}
+
+/* icon circle */
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  border: 1px solid #00c8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #00c8ff;
+  box-shadow: inset 0 0 10px rgba(0, 208, 255, 0.4);
+}
+
+/* title */
+.card h3 {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* list */
+.card ul {
+  text-align: left;
+  padding-left: 0;
+  list-style: none;
+}
+
+.card li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #c6dce7;
+  position: relative;
+  padding-left: 18px;
+}
+
+/* bullet dot */
+.card li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #00c8ff;
+  font-size: 12px;
+}
+
+/* button */
+.card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #00c8ff;
+  background: transparent;
+  color: #00c8ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #00c8ff;
+  color: black;
+}
+
+/* responsive */
+@media (max-width: 1000px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}
