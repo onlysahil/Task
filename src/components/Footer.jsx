@@ -101,7 +101,7 @@ export default function Footer() {
 
       {/* CERTIFICATION ROW */}
       <div className="certifications">
-  <img src="./src/assets/logobanner.png" alt="certifications" />
+  <img src="/src/assets/logobanner.png" alt="certifications" />
 </div>
 
     </footer>
