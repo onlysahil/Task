@@ -1,6 +1,6 @@
 import "./Footers.css";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
-
+import banner from "../assets/logobanner.png";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -101,7 +101,7 @@ export default function Footer() {
 
       {/* CERTIFICATION ROW */}
       <div className="certifications">
-  <img src="/src/assets/logobanner.png" alt="certifications" />
+  <img src={banner} alt="certifications" />
 </div>
 
     </footer>

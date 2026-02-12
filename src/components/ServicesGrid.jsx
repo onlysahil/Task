@@ -1,18 +1,19 @@
 import "./ServicesGrid.css";
+import leadsIcon from "../assets/leads.png";
 
 const services = [
   {
     title: "Lead Generation",
     desc: "Increase number of quality leads with lead generation campaigns. Successful lead generation campaign needs to identify, create, engage and convert. Call us to get more leads for your business through paid or organic promotion and reap benefits.",
     color: "#d4a017",
-     icon: "/src/assets/leads.png",
+     icon:leadsIcon,
     btn: "#b8860b",
   },
   {
     title: "Google Ads Services",
     desc: "Rank your website on 1st rank of Google, get noticed get business. Google Ads stand out your brand on top before real audience to gain maximum enquiries of users searching your product or services. Get highest ROI with Google Ads at most profitable package.",
     color: "#3b82f6",
-    icon: "/src/assets/leads.png",
+    icon: leadsIcon,
     btn: "#2563eb",
   },
   {
@@ -20,20 +21,20 @@ const services = [
     desc: "Organizations and business are rapidly growing these days due to their increased presence online. With our Search Engine Optimization services, you can rapidly increase your visibility online and ultimately grow your business.",
     color: "#8b5cf6",
     btn: "#7c3aed",
-    icon: "/src/assets/leads.png",
+    icon: leadsIcon,
   },
    {
     title: "Lead Generation",
     desc: "Increase number of quality leads with lead generation campaigns. Successful lead generation campaign needs to identify, create, engage and convert. Call us to get more leads for your business through paid or organic promotion and reap benefits.",
     color: "#d4a017",
-     icon: "/src/assets/leads.png",
+     icon: leadsIcon,
     btn: "#b8860b",
   },
   {
     title: "Google Ads Services",
     desc: "Rank your website on 1st rank of Google, get noticed get business. Google Ads stand out your brand on top before real audience to gain maximum enquiries of users searching your product or services. Get highest ROI with Google Ads at most profitable package.",
     color: "#3b82f6",
-    icon: "/src/assets/leads.png",
+    icon: leadsIcon,
     btn: "#2563eb",
   },
   {
@@ -41,7 +42,7 @@ const services = [
     desc: "Organizations and business are rapidly growing these days due to their increased presence online. With our Search Engine Optimization services, you can rapidly increase your visibility online and ultimately grow your business.",
     color: "#8b5cf6",
     btn: "#7c3aed",
-    icon: "/src/assets/leads.png",
+    icon: leadsIcon,
   },
   
 
